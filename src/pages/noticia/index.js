@@ -53,7 +53,7 @@ const Noticia = () => {
         <article className="c-card">
                     <img  src={require("./img/0000005.png")}   ></img>         
                     <p>Clube Formaliza Proposta Milhonaria por Artur.</p>    
-                    <Link to = "/noticia/0000005.png"  onClick={() => window.location.reload()} >Saiba Mais</Link>
+                    <Link className="link" to = "/noticia/0000005.png"  onClick={() => window.location.reload()} >Saiba Mais</Link>
                 </article> 
         
     </div>

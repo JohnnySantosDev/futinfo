@@ -16,7 +16,7 @@
   }
   
   .c-card {
-
+    margin-top: 10px;
     border-radius: .6rem;
     display: flex;
     flex-direction: column;
@@ -55,3 +55,11 @@
     width: 15%;
     background-color: #612626;
   }
+body p {
+  color: black;
+  text-align: left;
+  
+}
+.link {
+ color: #612626;
+}
