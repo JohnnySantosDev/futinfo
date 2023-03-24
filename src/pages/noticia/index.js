@@ -7,10 +7,27 @@ const Noticia = () => {
    let {NoticiaId} = useParams()
 
    return (
+    <div>
+        <div class="anuncios">
+            <h1>Anuncios</h1>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2811782341555306"
+        crossorigin="anonymous"></script>
+
+        <ins class="adsbygoogle"
+        data-ad-client="ca-pub-2811782341555306"
+        data-ad-slot="6190877328"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+        </div>
    <div className="container">
+
    <div  className="anuncio">
       <img  src={require("./img/"+NoticiaId)}   ></img>         
    </div>
+
    <div className="l-cards">        
         <article className="c-card">
             <img  src={require("../noticias/img/0000001.png")}   ></img>      
@@ -34,6 +51,7 @@ const Noticia = () => {
         </article>      
         
     </div>
+   </div>
    </div>
   );  
 }  

@@ -4,7 +4,21 @@ import {Link} from 'react-router-dom';
 const noticias = () => {
 
     return (
-
+<div>
+    <div class="anuncios">
+    <h1>Anuncios</h1>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2811782341555306"
+        crossorigin="anonymous"></script>
+       
+        <ins class="adsbygoogle"
+        data-ad-client="ca-pub-2811782341555306"
+        data-ad-slot="6190877328"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
     <div class="container">
         <div class="box">
             <div className="l-cards">        
@@ -31,6 +45,7 @@ const noticias = () => {
             </div>
         </div>
     </div>
+</div>
         
    
  
