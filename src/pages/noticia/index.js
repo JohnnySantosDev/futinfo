@@ -5,15 +5,16 @@ import "./index.css"
 
 const Noticia = () => {
    let {NoticiaId} = useParams()
-
+   let encoded = {NoticiaId}
+   let decoded = window.atob(NoticiaId)
    return (
     <div>
-        <div class="anuncios">
+        <div className="anuncios">
             <h1>Anuncios</h1>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2811782341555306"
         crossorigin="anonymous"></script>
 
-        <ins class="adsbygoogle"
+        <ins className="adsbygoogle"
         data-ad-client="ca-pub-2811782341555306"
         data-ad-slot="6190877328"
         data-ad-format="auto"
@@ -25,7 +26,7 @@ const Noticia = () => {
    <div className="container">
 
    <div  className="anuncio">
-      <img  src={require("./img/"+NoticiaId)}   ></img>         
+      <img  src={require("./img/"+decoded)}   ></img>         
    </div>
 
    <div className="l-cards">        

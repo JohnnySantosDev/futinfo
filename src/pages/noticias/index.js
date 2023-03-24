@@ -2,6 +2,13 @@ import React from "react";
 import "./index.css"
 import {Link} from 'react-router-dom';
 const noticias = () => {
+const rotas = [
+    window.btoa("0000001.png"),
+    window.btoa("0000002.png"),
+    window.btoa("0000003.png"),
+    window.btoa("0000004.png")
+
+]
 
     return (
 <div>
@@ -21,26 +28,27 @@ const noticias = () => {
     </div>
     <div class="container">
         <div class="box">
+        
             <div className="l-cards">        
                 <article className="c-card">
                     <img  src={require("./img/0000001.png")}   ></img>      
                     <p>Clube Apresenta Jovem Promessa.</p>     
-                    <Link to = "./noticia/0000001.png" >Saiba Mais</Link>
+                    <Link to =  {"/Noticia/"+rotas[0]} >Saiba Mais</Link>
                 </article>     
                 <article className="c-card">
                     <img  src={require("./img/0000002.png")}   ></img>         
                     <p>Tecnico pede Contratação do jogador.</p>    
-                    <Link to = "/noticia/0000002.png" >Saiba Mais</Link>
+                    <Link to =  {"/Noticia/"+rotas[1]} >Saiba Mais</Link>
                 </article>      
                 <article className="c-card">
                     <img  src={require("./img/0000003.png")}   ></img>      
                     <p>Neto sai em defesa de Cleber Machado.</p>     
-                    <Link to = "./noticia/0000003.png" >Saiba Mais</Link>
+                    <Link to =  {"/Noticia/"+rotas[2]} >Saiba Mais</Link>
                 </article>     
                 <article className="c-card">
                     <img  src={require("./img/0000004.png")}   ></img>         
                     <p>Clube Formaliza Proposta por Ferreirinha.</p>    
-                    <Link to = "/noticia/0000004.png" >Saiba Mais</Link>
+                    <Link to =  {"/Noticia/"+rotas[3]} >Saiba Mais</Link>
                 </article> 
             </div>
         </div>
