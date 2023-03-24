@@ -34,7 +34,7 @@ const noticias = () => {
                 </article>      
                 <article className="c-card">
                     <img  src={require("./img/0000003.png")}   ></img>      
-                    <p>Neto defende Cleber Machado.</p>     
+                    <p>Neto sai em defesa de Cleber Machado.</p>     
                     <Link to = "./noticia/0000003.png" >Saiba Mais</Link>
                 </article>     
                 <article className="c-card">

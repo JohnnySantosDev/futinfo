@@ -33,7 +33,7 @@ export default function Navbar() {
       </button>
       <div className={isNavExpanded ? "navigation-menu expanded" : "navigation-menu" }>
         <ul>
-        <li><a href="/noticia/0000001.png"> Noticias </a></li>
+        <li> <Link to = "./noticia/0000001.png" >Noticias</Link></li>
           <li><a href="/"> Inicio </a></li>
         </ul>
       </div>

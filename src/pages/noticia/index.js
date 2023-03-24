@@ -41,8 +41,8 @@ const Noticia = () => {
         </article>      
          <article className="c-card">
             <img  src={require("../noticias/img/0000003.png")}   ></img>      
-            <p>Neto Defende Cleber Machado</p>     
-            <Link to = "./noticia/0000003.png" onClick={() => window.location.reload()} >Saiba Mais</Link>
+            <p>Neto sai em defesa de Cleber Machado.</p>  
+            <Link to = "/noticia/0000003.png" onClick={() => window.location.reload()} >Saiba Mais</Link>
         </article>     
         <article className="c-card">
             <img  src={require("../noticias/img/0000002.png")}   ></img>         
