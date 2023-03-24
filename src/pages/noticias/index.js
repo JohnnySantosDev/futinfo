@@ -6,7 +6,7 @@ const noticias = () => {
     return (
 <div>
     <div class="anuncios">
-    <h1>Anuncios</h1>
+
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2811782341555306"
         crossorigin="anonymous"></script>
        
