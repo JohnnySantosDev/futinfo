@@ -6,6 +6,7 @@ export default function Navbar() {
   const [isNavExpanded, setIsNavExpanded] = useState(false)
 
   return (
+    
     <div className="HeaderPai">
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2811782341555306"
      crossorigin="anonymous"></script>
