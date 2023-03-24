@@ -38,9 +38,9 @@ const noticias = () => {
                     <Link to = "./noticia/0000003.png" >Saiba Mais</Link>
                 </article>     
                 <article className="c-card">
-                    <img  src={require("./img/0000002.png")}   ></img>         
+                    <img  src={require("./img/0000004.png")}   ></img>         
                     <p>Tecnico pede Contratação do jogador.</p>    
-                    <Link to = "/noticia/0000002.png" >Saiba Mais</Link>
+                    <Link to = "/noticia/0000004.png" >Saiba Mais</Link>
                 </article> 
             </div>
         </div>

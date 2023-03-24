@@ -45,9 +45,9 @@ const Noticia = () => {
             <Link to = "/noticia/0000003.png" onClick={() => window.location.reload()} >Saiba Mais</Link>
         </article>     
         <article className="c-card">
-            <img  src={require("../noticias/img/0000002.png")}   ></img>         
+            <img  src={require("../noticias/img/0000004.png")}   ></img>         
             <p>Tecnico pede Contratação do jogador.</p>    
-            <Link to = "/noticia/0000002.png"  onClick={() => window.location.reload()} >Saiba Mais</Link>
+            <Link to = "/noticia/0000004.png"  onClick={() => window.location.reload()} >Saiba Mais</Link>
         </article>      
         
     </div>
