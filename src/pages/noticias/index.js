@@ -39,7 +39,7 @@ const noticias = () => {
                 </article>     
                 <article className="c-card">
                     <img  src={require("./img/0000004.png")}   ></img>         
-                    <p>Tecnico pede Contratação do jogador.</p>    
+                    <p>Clube Formaliza Proposta por Ferreirinha.</p>    
                     <Link to = "/noticia/0000004.png" >Saiba Mais</Link>
                 </article> 
             </div>
