@@ -6,7 +6,8 @@ const rotas = [
     window.btoa("0000001.png"),
     window.btoa("0000002.png"),
     window.btoa("0000003.png"),
-    window.btoa("0000004.png")
+    window.btoa("0000004.png"),
+    window.btoa("0000005.png")
 
 ]
 
@@ -49,6 +50,11 @@ const rotas = [
                     <img  src={require("./img/0000004.png")}   ></img>         
                     <p>Clube Formaliza Proposta por Ferreirinha.</p>    
                     <Link to =  {"/Noticia/"+rotas[3]} >Saiba Mais</Link>
+                </article> 
+                <article className="c-card">
+                    <img  src={require("./img/0000005.png")}   ></img>         
+                    <p>Clube Formaliza Proposta Milhonaria por Artur.</p>    
+                    <Link to =  {"/Noticia/"+rotas[4]} >Saiba Mais</Link>
                 </article> 
             </div>
         </div>
