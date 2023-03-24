@@ -40,9 +40,9 @@ const Noticia = () => {
             <Link to = "/noticia/0000002.png"  onClick={() => window.location.reload()} >Saiba Mais</Link>
         </article>      
          <article className="c-card">
-            <img  src={require("../noticias/img/0000001.png")}   ></img>      
-            <p>Clube Apresenta Jovem Promessa.</p>     
-            <Link to = "./noticia/0000001.png" onClick={() => window.location.reload()} >Saiba Mais</Link>
+            <img  src={require("../noticias/img/0000003.png")}   ></img>      
+            <p>Neto Defende Cleber Machado</p>     
+            <Link to = "./noticia/0000003.png" onClick={() => window.location.reload()} >Saiba Mais</Link>
         </article>     
         <article className="c-card">
             <img  src={require("../noticias/img/0000002.png")}   ></img>         
