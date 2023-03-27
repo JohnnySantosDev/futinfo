@@ -54,7 +54,22 @@ const Noticia = () => {
                     <img  src={require("./img/0000005.png")}   ></img>         
                     <p>Clube Formaliza Proposta Milhonaria por Artur.</p>    
                     <Link className="link" to = "/noticia/0000005.png"  onClick={() => window.location.reload()} >Saiba Mais</Link>
-                </article> 
+        </article> 
+        <article className="c-card">
+            <img  src={require("../noticias/img/0000006.png")}   ></img>      
+            <p>Neto sai em defesa de Cleber Machado.</p>  
+            <Link to = "/noticia/0000006.png" onClick={() => window.location.reload()} >Saiba Mais</Link>
+        </article>     
+        <article className="c-card">
+            <img  src={require("../noticias/img/0000007.png")}   ></img>         
+            <p>Tecnico pede Contratação do jogador.</p>    
+            <Link to = "/noticia/0000007.png"  onClick={() => window.location.reload()} >Saiba Mais</Link>
+        </article>    
+        <article className="c-card">
+                    <img  src={require("./img/0000008.png")}   ></img>         
+                    <p>Clube Formaliza Proposta Milhonaria por Artur.</p>    
+                    <Link className="link" to = "/noticia/000008.png"  onClick={() => window.location.reload()} >Saiba Mais</Link>
+        </article> 
         
     </div>
    </div>

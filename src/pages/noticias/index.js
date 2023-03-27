@@ -7,7 +7,10 @@ const rotas = [
     window.btoa("0000002.png"),
     window.btoa("0000003.png"),
     window.btoa("0000004.png"),
-    window.btoa("0000005.png")
+    window.btoa("0000005.png"),
+    window.btoa("0000006.png"),
+    window.btoa("0000007.png"),
+    window.btoa("0000008.png")
 
 ]
 
@@ -56,6 +59,22 @@ const rotas = [
                     <p>Clube Formaliza Proposta Milhonaria por Artur.</p>    
                     <Link to =  {"/Noticia/"+rotas[4]} >Saiba Mais</Link>
                 </article> 
+                <article className="c-card">
+                    <img  src={require("./img/0000006.png")}   ></img>      
+                    <p>Neto sai em defesa de Cleber Machado.</p>     
+                    <Link to =  {"/Noticia/"+rotas[5]} >Saiba Mais</Link>
+                </article>     
+                <article className="c-card">
+                    <img  src={require("./img/0000007.png")}   ></img>         
+                    <p>Clube Formaliza Proposta por Ferreirinha.</p>    
+                    <Link to =  {"/Noticia/"+rotas[6]} >Saiba Mais</Link>
+                </article> 
+                <article className="c-card">
+                    <img  src={require("./img/0000008.png")}   ></img>         
+                    <p>Clube Formaliza Proposta Milhonaria por Artur.</p>    
+                    <Link to =  {"/Noticia/"+rotas[7]} >Saiba Mais</Link>
+                </article> 
+                
             </div>
         </div>
     </div>
