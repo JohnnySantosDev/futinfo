@@ -61,17 +61,17 @@ const rotas = [
                 </article> 
                 <article className="c-card">
                     <img  src={require("./img/0000006.png")}   ></img>      
-                    <p>Neto sai em defesa de Cleber Machado.</p>     
+                    <p>Timão proximo de Contratação</p>
                     <Link to =  {"/Noticia/"+rotas[5]} >Saiba Mais</Link>
                 </article>     
                 <article className="c-card">
                     <img  src={require("./img/0000007.png")}   ></img>         
-                    <p>Clube Formaliza Proposta por Ferreirinha.</p>    
+                    <p>Gremio Nao para em Suarez</p>    
                     <Link to =  {"/Noticia/"+rotas[6]} >Saiba Mais</Link>
                 </article> 
                 <article className="c-card">
                     <img  src={require("./img/0000008.png")}   ></img>         
-                    <p>Clube Formaliza Proposta Milhonaria por Artur.</p>    
+                    <p>Palmeiras surpreende e tenta contratação de Meia.</p>    
                     <Link to =  {"/Noticia/"+rotas[7]} >Saiba Mais</Link>
                 </article> 
                 
